@@ -12,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AppProvider>
             <header className="fixed top-0 w-full z-50 glass-panel border-b border-black/5">
                 <div className="flex justify-between items-center px-8 py-6 max-w-screen-2xl mx-auto">
-                    <Link href="/" className="font-serif italic text-2xl">Valentina Decoracion y Eventos</Link>
+                    <Link href="/" className="font-serif italic text-2xl">Decoracion y Eventos</Link>
                     <nav className="flex gap-12 font-bold text-[10px] uppercase tracking-[0.2em]">
                         <Link href="/" className="hover:text-primary">Inicio</Link>
                         <Link href="/catalogo" className="hover:text-primary">Catálogo</Link>
